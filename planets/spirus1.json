@@ -10,7 +10,7 @@
 		"ambientLight": 0.8
 	},
 	"Orbit": {
-		"primaryBody": "thecore",
+		"primaryBody": "The Core",
 		"semiMajorAxis": 7000
 	},
 	"Spawn": {
