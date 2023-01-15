@@ -1,23 +1,38 @@
 {
-    "name": "The Core",
-    "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
-    "starSystem": "Spacepiano.SpiralSystem",
-    "Base": {
-      "surfaceSize": 202,
-      "surfaceGravity": 12,
-      "hasMapMarker": true,
-      "centerOfSolarSystem": true
-    },
-    "Star": {
-      "endTint": {
-        "r": 0,
-        "g": 50,
-        "b": 255 
-      },
-      "tint": {"r": 0, "g": 255, "b": 50},
-      "hasAtmosphere": true,
-      "size": 2000,
-      "stellarRemnantType": "pulsar"
-    },
-  "canShowOnTitle": true
-  }
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "The Core",
+	"starSystem": "Spacepiano.SpiralSystem",
+	"Base": {
+		"centerOfSolarSystem": true,
+		"gravityFallOff": "linear",
+		"hasMapMarker": true,
+		"invulnerableToSun": true,
+		"surfaceGravity": 12.0,
+		"surfaceSize": 202.0
+	},
+	"Orbit": {
+		"isStatic": true
+	},
+	"ReferenceFrame": {},
+	"ShipLog": {
+		"xmlFile": "planets/thecore.xml",
+		"initialReveal": [
+			"CORE_EXPLORE_FACT"
+	  	],
+		"spriteFolder": "planets/core_entry_sprites"
+	},
+	"Star": {
+		"endTint": {
+			"g": 50,
+			"b": 255,
+			"a": 0
+		},
+		"tint": {
+			"g": 255,
+			"b": 50,
+			"a": 0
+		},
+		"stellarDeathType": "default",
+		"stellarRemnantType": "pulsar"
+	}
+}

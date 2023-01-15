@@ -3,5 +3,5 @@
     "canEnterViaWarpDrive": true,
     "destroyStockPlanets": true,
     "enableTimeLoop": true,
-    "startHere": false
+    "startHere": true
 }

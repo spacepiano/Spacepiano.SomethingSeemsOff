@@ -1,0 +1,23 @@
+{
+    "name": "The Core",
+    "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+    "starSystem": "Spacepiano.SpiralSystem",
+    "Base": {
+      "surfaceSize": 202,
+      "surfaceGravity": 12,
+      "hasMapMarker": true,
+      "centerOfSolarSystem": true
+    },
+    "Star": {
+      "endTint": {
+        "r": 0,
+        "g": 50,
+        "b": 255 
+      },
+      "tint": {"r": 0, "g": 255, "b": 50},
+      "hasAtmosphere": true,
+      "size": 2000,
+      "stellarRemnantType": "pulsar"
+    },
+  "canShowOnTitle": true
+  }

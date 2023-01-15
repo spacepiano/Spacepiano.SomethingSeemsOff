@@ -1,0 +1,17 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+                  <ID>THE_CORE</ID>
+
+                  <Entry>
+                    <ID>CORE_ENTRY</ID>
+                    <Name>The Core</Name>
+                    <Curiosity>CORE_ENTRY</Curiosity>
+                    <IsCuriosity />
+                    <IgnoreMoreToExplore />
+
+                    <ExploreFact>
+                        <ID>CORE_EXPLORE_FACT</ID>
+                        <Text>This appears to be this system's sun.</Text>
+                    </ExploreFact>
+                  </Entry>
+</AstroObjectEntry>

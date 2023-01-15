@@ -1,16 +1,33 @@
 {
 	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
-	"name" : "Spirus 3",
+	"name": "Spirus 3",
 	"starSystem": "Spacepiano.SpiralSystem",
 	"Base": {
-		"groundSize": 100,
-		"surfaceSize": 100,
-		"surfaceGravity": 10,
+		"ambientLight": 0.8,
+		"gravityFallOff": "linear",
 		"hasMapMarker": true,
-		"ambientLight": 0.8
+		"surfaceGravity": 10.0,
+		"surfaceSize": 120.0
 	},
 	"Orbit": {
 		"primaryBody": "Spirus 2",
-		"semiMajorAxis": 1250
-	}
+		"semiMajorAxis": 1250.0
+	},
+	"HeightMap": {
+		"heightMap": "planets/assets/Spirus3Heightmap.png",
+		"maxHeight": 120.0,
+		"minHeight": 105.0,
+		"textureMap": "planets/assets/Spirus3Texture.png"
+	},
+	"Water": {
+		"size": 108,
+		"tint": {
+			"r": 0,
+			"g": 100,
+			"b": 160
+		}
+	},
+	"ReferenceFrame": {},
+	"ShipLog": {},
+	"ShockEffect": {}
 }
