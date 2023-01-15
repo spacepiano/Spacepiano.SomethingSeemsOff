@@ -32,7 +32,6 @@
 			"b": 50,
 			"a": 0
 		},
-		"stellarDeathType": "default",
-		"stellarRemnantType": "pulsar"
+		"stellarDeathType": "supernova"
 	}
 }

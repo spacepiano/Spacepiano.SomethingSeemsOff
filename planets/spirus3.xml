@@ -3,15 +3,15 @@
                   <ID>SPIRUS_3</ID>
 
                   <Entry>
-                    <ID>CORE_ENTRY</ID>
-                    <Name>The Core</Name>
-                    <Curiosity>CORE_ENTRY</Curiosity>
+                    <ID>S3_ENTRY</ID>
+                    <Name>Spirus 3</Name>
+                    <Curiosity>S3_ENTRY</Curiosity>
                     <IsCuriosity />
                     <IgnoreMoreToExplore />
 
                     <ExploreFact>
-                        <ID>CORE_EXPLORE_FACT</ID>
-                        <Text>This appears to be this system's sun.</Text>
+                        <ID>S3_EXPLORE_FACT</ID>
+                        <Text>The most habitable planet in this system, it appears to be the only planet harbouring biological matter</Text>
                     </ExploreFact>
                   </Entry>
 </AstroObjectEntry>

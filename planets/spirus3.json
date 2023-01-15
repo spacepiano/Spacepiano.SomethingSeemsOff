@@ -16,11 +16,11 @@
 	"HeightMap": {
 		"heightMap": "planets/assets/Spirus3Heightmap.png",
 		"maxHeight": 120.0,
-		"minHeight": 105.0,
+		"minHeight": 100.0,
 		"textureMap": "planets/assets/Spirus3Texture.png"
 	},
 	"Water": {
-		"size": 108,
+		"size": 106,
 		"tint": {
 			"r": 0,
 			"g": 100,
@@ -28,6 +28,12 @@
 		}
 	},
 	"ReferenceFrame": {},
-	"ShipLog": {},
+	"ShipLog": {
+		"xmlFile": "planets/spirus3.xml",
+		"initialReveal": [
+			"S3_EXPLORE_FACT"
+	  	],
+		"spriteFolder": "planets/s3_entry_sprites"
+	},
 	"ShockEffect": {}
 }

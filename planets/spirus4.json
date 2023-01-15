@@ -15,12 +15,12 @@
 	},
 	"HeightMap": {
 		"heightMap": "planets/assets/Spirus4Heightmap.png",
-		"maxHeight": 70.0,
-		"minHeight": 87.0,
+		"maxHeight": 87.0,
+		"minHeight": 70.0,
 		"textureMap": "planets/assets/Spirus4Texture.png"
 	},
 	"Lava": {
-		"size": 80,
+		"size": 76,
 		"tint": {"r": 255, "g": 128, "b": 0}
 	},
 	"ShipLog": {

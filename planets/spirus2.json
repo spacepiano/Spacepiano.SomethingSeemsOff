@@ -12,12 +12,30 @@
 	"HeightMap": {
 		"heightMap": "planets/assets/Spirus2Heightmap.png",
 		"maxHeight": 150.0,
-		"minHeight": 140.0,
+		"minHeight": 125.0,
 		"textureMap": "planets/assets/Spirus2Texture.png"
 	},
 	"Orbit": {
 		"primaryBody": "Spirus 1",
 		"semiMajorAxis": 2000.0
+	},
+	"Water": {
+		"size": 140,
+		"tint": {
+			"r": 77,
+			"g": 13,
+			"b": 0
+		}
+	},
+	"Atmosphere": {
+		"atmosphereTint": {
+			"r": 179,
+			"g": 255,
+			"b": 255
+		},
+		"hasOxygen": true,
+		"useAtmosphereShader": true,
+		"size": 190
 	},
 	"ReferenceFrame": {},
 	"ShipLog": {},
