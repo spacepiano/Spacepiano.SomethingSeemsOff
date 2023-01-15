@@ -9,6 +9,10 @@
 		"surfaceGravity": 10.0,
 		"surfaceSize": 75.0
 	},
+	"Orbit": {
+		"primaryBody": "Spirus 3",
+		"semiMajorAxis": 625.0
+	},
 	"HeightMap": {
 		"heightMap": "planets/assets/Spirus4Heightmap.png",
 		"maxHeight": 87.0,
@@ -16,24 +20,16 @@
 		"textureMap": "planets/assets/Spirus4Texture.png"
 	},
 	"Lava": {
-		"size": 76.0,
-		"tint": {
-			"r": 255,
-			"g": 128,
-			"a": 0
-		}
+		"size": 76,
+		"tint": {"r": 255, "g": 128, "b": 0}
 	},
-	"Orbit": {
-		"primaryBody": "Spirus 3",
-		"semiMajorAxis": 625.0
-	},
-	"ReferenceFrame": {},
 	"ShipLog": {
+		"xmlFile": "planets/spirus4.xml",
 		"initialReveal": [
 			"S4_EXPLORE_FACT"
-		],
-		"spriteFolder": "planets/s4_entry_sprites",
-		"xmlFile": "planets/spirus4.xml"
+	  	],
+		"spriteFolder": "planets/s4_entry_sprites"
 	},
+	"ReferenceFrame": {},
 	"ShockEffect": {}
 }

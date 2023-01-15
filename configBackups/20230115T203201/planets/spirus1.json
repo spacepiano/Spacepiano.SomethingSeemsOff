@@ -1,0 +1,59 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Spirus 1",
+	"starSystem": "Spacepiano.SpiralSystem",
+	"Base": {
+		"ambientLight": 0.8,
+		"gravityFallOff": "linear",
+		"hasMapMarker": true,
+		"surfaceGravity": 10.0,
+		"surfaceSize": 200.0
+	},
+	"HeightMap": {
+		"heightMap": "planets/assets/Spirus1Heightmap.png",
+		"maxHeight": 200.0,
+		"minHeight": 150.0,
+		"textureMap": "planets/assets/Spirus1Texture.png"
+	},
+	"Orbit": {
+		"primaryBody": "The Core",
+		"semiMajorAxis": 7000.0
+	},
+	"Props": {
+		
+	},
+	"ReferenceFrame": {},
+	"ShipLog": {},
+	"ShockEffect": {},
+	"Spawn": {
+		"playerSpawnPoint": {
+			"x": 71.33827, "y": 173.0063, "z": 35.654
+		},
+		"shipSpawnPoint": {
+			"x": 0.1600041, "y": 184.3692, "z": 4.333206
+		},
+		"shipSpawnRotation": {
+			"x": 357.1497, "y": 168.7318, "z": 5.028956
+		},
+		"playerSpawnRotation": {"x": 314.6752, "y": 239.5186, "z": 8.487219},
+		"startWithSuit": true
+	},
+	"Atmosphere": {
+		"atmosphereTint": {
+			"r": 30,
+			"g": 10,
+			"b": 10
+		},
+		"hasOxygen": true,
+		"useAtmosphereShader": true,
+		"size": 250
+	},
+	"Water": {
+		"size": 160,
+		"tint": {
+			"r": 0,
+			"g": 20,
+			"b": 230
+		}
+	}
+}

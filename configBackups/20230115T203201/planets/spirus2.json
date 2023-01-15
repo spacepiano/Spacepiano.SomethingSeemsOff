@@ -2,17 +2,6 @@
 	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
 	"name": "Spirus 2",
 	"starSystem": "Spacepiano.SpiralSystem",
-	"Atmosphere": {
-		"atmosphereTint": {
-			"r": 179,
-			"g": 255,
-			"b": 255,
-			"a": 0
-		},
-		"hasOxygen": true,
-		"size": 190.0,
-		"useAtmosphereShader": true
-	},
 	"Base": {
 		"ambientLight": 0.8,
 		"gravityFallOff": "linear",
@@ -30,15 +19,25 @@
 		"primaryBody": "Spirus 1",
 		"semiMajorAxis": 2000.0
 	},
-	"ReferenceFrame": {},
-	"ShipLog": {},
-	"ShockEffect": {},
 	"Water": {
-		"size": 140.0,
+		"size": 140,
 		"tint": {
 			"r": 77,
 			"g": 13,
-			"a": 0
+			"b": 0
 		}
-	}
+	},
+	"Atmosphere": {
+		"atmosphereTint": {
+			"r": 179,
+			"g": 255,
+			"b": 255
+		},
+		"hasOxygen": true,
+		"useAtmosphereShader": true,
+		"size": 190
+	},
+	"ReferenceFrame": {},
+	"ShipLog": {},
+	"ShockEffect": {}
 }

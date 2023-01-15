@@ -15,11 +15,11 @@
 	},
 	"ReferenceFrame": {},
 	"ShipLog": {
+		"xmlFile": "planets/thecore.xml",
 		"initialReveal": [
 			"CORE_EXPLORE_FACT"
-		],
-		"spriteFolder": "planets/core_entry_sprites",
-		"xmlFile": "planets/thecore.xml"
+	  	],
+		"spriteFolder": "planets/core_entry_sprites"
 	},
 	"Star": {
 		"endTint": {
@@ -32,7 +32,6 @@
 			"b": 50,
 			"a": 0
 		},
-		"stellarDeathType": "supernova",
-		"stellarRemnantType": "default"
+		"stellarDeathType": "supernova"
 	}
 }
