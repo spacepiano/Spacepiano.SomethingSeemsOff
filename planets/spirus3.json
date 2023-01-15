@@ -1,0 +1,16 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name" : "Spirus 3",
+	"starSystem": "Spacepiano.SpiralSystem",
+	"Base": {
+		"groundSize": 100,
+		"surfaceSize": 100,
+		"surfaceGravity": 10,
+		"hasMapMarker": true,
+		"ambientLight": 0.8
+	},
+	"Orbit": {
+		"primaryBody": "Spirus 2",
+		"semiMajorAxis": 1250
+	}
+}

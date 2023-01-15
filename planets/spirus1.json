@@ -3,8 +3,7 @@
 	"name" : "Spirus 1",
 	"starSystem": "Spacepiano.SpiralSystem",
 	"Base": {
-		"groundSize": 100,
-		"surfaceSize": 100,
+		"surfaceSize": 200,
 		"surfaceGravity": 10,
 		"hasMapMarker": true,
 		"ambientLight": 0.8
@@ -16,5 +15,11 @@
 	"Spawn": {
 		"shipSpawnPoint": {"x": 1000, "y": 1000, "z": 1000},
 		"playerSpawnPoint": {"x": 900, "y": 900, "z": 900}
+	},
+	"HeightMap": {
+		"minHeight": 150,
+		"maxHeight": 200,
+		"heightMap": "planets/assets/Spirus1Heightmap.png",
+		"textureMap": "planets/assets/Spirus1Texture.png"
 	}
 }
