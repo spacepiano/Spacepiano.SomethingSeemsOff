@@ -3,15 +3,15 @@
                   <ID>SPIRUS_2</ID>
 
                   <Entry>
-                    <ID>CORE_ENTRY</ID>
-                    <Name>The Core</Name>
-                    <Curiosity>CORE_ENTRY</Curiosity>
+                    <ID>S2_ENTRY</ID>
+                    <Name>Spirus 2</Name>
+                    <Curiosity>S2_ENTRY</Curiosity>
                     <IsCuriosity />
                     <IgnoreMoreToExplore />
 
                     <ExploreFact>
-                        <ID>CORE_EXPLORE_FACT</ID>
-                        <Text>This appears to be this system's sun.</Text>
+                        <ID>S2_EXPLORE_FACT</ID>
+                        <Text>This planet appears to be in early stages of development, housing a very thin atmosphere.</Text>
                     </ExploreFact>
                   </Entry>
 </AstroObjectEntry>

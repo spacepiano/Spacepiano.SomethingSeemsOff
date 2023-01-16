@@ -31,7 +31,13 @@
 		"semiMajorAxis": 2000.0
 	},
 	"ReferenceFrame": {},
-	"ShipLog": {},
+	"ShipLog": {
+		"initialReveal": [
+			"S2_EXPLORE_FACT"
+		],
+		"spriteFolder": "planets/s2_entry_sprites",
+		"xmlFile": "planets/spirus2.xml"
+	},
 	"ShockEffect": {},
 	"Water": {
 		"size": 140.0,

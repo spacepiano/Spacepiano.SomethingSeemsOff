@@ -1,0 +1,51 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Spirus 4",
+	"starSystem": "Spacepiano.SpiralSystem",
+	"Base": {
+		"ambientLight": 0.8,
+		"gravityFallOff": "linear",
+		"hasMapMarker": true,
+		"surfaceGravity": 10.0,
+		"surfaceSize": 75.0
+	},
+	"HeightMap": {
+		"heightMap": "planets/assets/Spirus4Heightmap.png",
+		"maxHeight": 87.0,
+		"minHeight": 70.0,
+		"textureMap": "planets/assets/Spirus4Texture.png"
+	},
+	"Lava": {
+		"size": 76.0,
+		"tint": {
+			"r": 255,
+			"g": 128,
+			"a": 0
+		}
+	},
+	"Orbit": {
+		"primaryBody": "Spirus 3",
+		"semiMajorAxis": 625.0
+	},
+	"ReferenceFrame": {},
+	"ShipLog": {
+		"initialReveal": [
+			"S4_EXPLORE_FACT"
+		],
+		"spriteFolder": "planets/s4_entry_sprites",
+		"xmlFile": "planets/spirus4.xml"
+	},
+	"Props": {
+		"details": [
+			{
+				"assetBundle": "planets/assetbundles/spiralsystem1",
+				"path": "Assets/Nomai Ruins/Nomai Ruins/ExtractionDevice.prefab",
+				"position": {"x": 49.65405, "y": 16.96939, "z": 65.47768},
+				"rotation": {"x": 329.9615, "y": 306.4059, "z": 281.9011},
+				"normal": {"x": 0.6638278, "y": 0.1785249, "z": 0.7262654}			
+			}
+			
+		]
+	},
+	"ShockEffect": {}
+}

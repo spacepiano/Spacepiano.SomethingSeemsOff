@@ -1,0 +1,50 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Spirus 2",
+	"starSystem": "Spacepiano.SpiralSystem",
+	"Atmosphere": {
+		"atmosphereTint": {
+			"r": 179,
+			"g": 255,
+			"b": 255,
+			"a": 0
+		},
+		"hasOxygen": true,
+		"size": 190.0,
+		"useAtmosphereShader": true
+	},
+	"Base": {
+		"ambientLight": 0.8,
+		"gravityFallOff": "linear",
+		"hasMapMarker": true,
+		"surfaceGravity": 10.0,
+		"surfaceSize": 150.0
+	},
+	"HeightMap": {
+		"heightMap": "planets/assets/Spirus2Heightmap.png",
+		"maxHeight": 150.0,
+		"minHeight": 125.0,
+		"textureMap": "planets/assets/Spirus2Texture.png"
+	},
+	"Orbit": {
+		"primaryBody": "Spirus 1",
+		"semiMajorAxis": 2000.0
+	},
+	"ReferenceFrame": {},
+	"ShipLog": {
+		"initialReveal": [
+			"S2_EXPLORE_FACT"
+		],
+		"spriteFolder": "planets/s2_entry_sprites",
+		"xmlFile": "planets/spirus2.xml"
+	},
+	"ShockEffect": {},
+	"Water": {
+		"size": 140.0,
+		"tint": {
+			"r": 77,
+			"g": 13,
+			"a": 0
+		}
+	}
+}

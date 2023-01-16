@@ -1,0 +1,109 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Spirus 4",
+	"starSystem": "Spacepiano.SpiralSystem",
+	"Base": {
+		"ambientLight": 0.8,
+		"gravityFallOff": "linear",
+		"hasMapMarker": true,
+		"surfaceGravity": 10.0,
+		"surfaceSize": 75.0
+	},
+	"HeightMap": {
+		"heightMap": "planets/assets/Spirus4Heightmap.png",
+		"maxHeight": 87.0,
+		"minHeight": 70.0,
+		"textureMap": "planets/assets/Spirus4Texture.png"
+	},
+	"Lava": {
+		"size": 76.0,
+		"tint": {
+			"r": 255,
+			"g": 128,
+			"a": 0
+		}
+	},
+	"Orbit": {
+		"primaryBody": "Spirus 3",
+		"semiMajorAxis": 625.0
+	},
+	"Props": {
+		"details": [
+			{
+				"assetBundle": "planets/assetbundles/spiralsystem1",
+				"path": "Assets/Nomai Ruins/Nomai Ruins/ExtractionDevice.prefab",
+				"position": {
+					"x": 49.65405,
+					"y": 16.96939,
+					"z": 65.47768
+				},
+				"rotation": {
+					"x": 329.9615,
+					"y": 306.4059,
+					"z": 281.9011
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
+				"position": {
+					"x": 49.32664,
+					"y": 22.5895138,
+					"z": 63.7847481
+				},
+				"rotation": {
+					"x": 43.38981,
+					"y": 115.33448,
+					"z": 61.92899
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
+				"position": {
+					"x": 50.4336,
+					"y": 11.8371353,
+					"z": 65.56213
+				},
+				"rotation": {
+					"x": 53.85126,
+					"y": 129.278412,
+					"z": 74.95791
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
+				"position": {
+					"x": 46.1818161,
+					"y": 13.8056984,
+					"z": 68.4657059
+				},
+				"rotation": {
+					"x": 28.276144,
+					"y": 302.923828,
+					"z": 277.103241
+				}
+			},
+			{
+				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Interactables_Village/LaunchTower/Effects_HEA_Campfire",
+				"position": {
+					"x": 55.2928467,
+					"y": 15.9801168,
+					"z": 61.1156731
+				},
+				"rotation": {
+					"x": 58.4869461,
+					"y": 89.73133,
+					"z": 48.3337631
+				}
+			}
+		]
+	},
+	"ReferenceFrame": {},
+	"ShipLog": {
+		"initialReveal": [
+			"S4_EXPLORE_FACT"
+		],
+		"spriteFolder": "planets/s4_entry_sprites",
+		"xmlFile": "planets/spirus4.xml"
+	},
+	"ShockEffect": {}
+}

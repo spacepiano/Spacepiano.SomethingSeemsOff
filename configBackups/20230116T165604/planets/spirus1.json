@@ -1,0 +1,974 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Spirus 1",
+	"starSystem": "Spacepiano.SpiralSystem",
+	"Atmosphere": {
+		"atmosphereTint": {
+			"r": 30,
+			"g": 10,
+			"b": 10,
+			"a": 0
+		},
+		"hasOxygen": true,
+		"size": 250.0,
+		"useAtmosphereShader": true
+	},
+	"Base": {
+		"ambientLight": 0.8,
+		"gravityFallOff": "linear",
+		"hasMapMarker": true,
+		"surfaceGravity": 10.0,
+		"surfaceSize": 200.0
+	},
+	"HeightMap": {
+		"heightMap": "planets/assets/Spirus1Heightmap.png",
+		"maxHeight": 200.0,
+		"minHeight": 150.0,
+		"textureMap": "planets/assets/Spirus1Texture.png"
+	},
+	"Orbit": {
+		"primaryBody": "The Core",
+		"semiMajorAxis": 7000.0
+	},
+	"Props": {
+		"details": [
+			{
+				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Interactables_Village/LaunchTower/Effects_HEA_Campfire",
+				"position": {
+					"x": 70.37186,
+					"y": 173.825363,
+					"z": 32.61377
+				},
+				"rotation": {
+					"x": 9.300573,
+					"y": 30.5453129,
+					"z": 341.051056
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QCactus/Q_Cactus/Prefab_HGT_Cactus_Single_A",
+				"position": {
+					"x": 58.4602356,
+					"y": 177.385239,
+					"z": 38.7720947
+				},
+				"rotation": {
+					"x": 21.0599022,
+					"y": 96.5902252,
+					"z": 21.605299
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QCactus/Q_Cactus/Prefab_HGT_Cactus_Single_A",
+				"position": {
+					"x": 54.8109741,
+					"y": 178.71611,
+					"z": 39.1269531
+				},
+				"rotation": {
+					"x": 2.178974,
+					"y": 136.228119,
+					"z": 16.6082344
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QCactus/Q_Cactus/Prefab_HGT_Cactus_Single_A",
+				"position": {
+					"x": 55.9335022,
+					"y": 177.338959,
+					"z": 42.0001221
+				},
+				"rotation": {
+					"x": 19.8367081,
+					"y": 102.878868,
+					"z": 17.6713657
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QCactus/Q_Cactus/Prefab_HGT_Cactus_Single_A",
+				"position": {
+					"x": 25.3400269,
+					"y": 182.21312,
+					"z": 34.1563721
+				},
+				"rotation": {
+					"x": 3.99203348,
+					"y": 104.363335,
+					"z": 17.4457
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QCactus/Q_Cactus/Prefab_HGT_Cactus_Single_A",
+				"position": {
+					"x": 28.38324,
+					"y": 181.735443,
+					"z": 34.2749023
+				},
+				"rotation": {
+					"x": 0.239374071,
+					"y": 116.112511,
+					"z": 17.8812046
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QCactus/Q_Cactus/Prefab_HGT_Cactus_Single_A",
+				"position": {
+					"x": 28.2195435,
+					"y": 182.2948,
+					"z": 32.4146729
+				},
+				"rotation": {
+					"x": 8.19268,
+					"y": 90.35399,
+					"z": 15.9504919
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QCactus/Q_Cactus/Prefab_HGT_Cactus_Single_A",
+				"position": {
+					"x": -1.51412964,
+					"y": 184.76796,
+					"z": 20.5875244
+				},
+				"rotation": {
+					"x": 355.368042,
+					"y": 50.6806564,
+					"z": 351.077972
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QCactus/Q_Cactus/Prefab_HGT_Cactus_Single_A",
+				"position": {
+					"x": 0.2755127,
+					"y": 185.180176,
+					"z": 22.88684
+				},
+				"rotation": {
+					"x": 354.652832,
+					"y": 63.2679329,
+					"z": 349.517181
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QCactus/Q_Cactus/Prefab_HGT_Cactus_Single_A",
+				"position": {
+					"x": -0.609466553,
+					"y": 184.201279,
+					"z": 17.51355
+				},
+				"rotation": {
+					"x": 354.747162,
+					"y": 46.9446449,
+					"z": 351.3501
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QCactus/Q_Cactus/Prefab_HGT_Cactus_Single_A",
+				"position": {
+					"x": 2.05703735,
+					"y": 184.703247,
+					"z": 20.5948486
+				},
+				"rotation": {
+					"x": 352.989655,
+					"y": 53.77398,
+					"z": 350.541443
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QCactus/Q_Cactus/Prefab_HGT_Cactus_Single_A",
+				"position": {
+					"x": 8.268219,
+					"y": 184.393524,
+					"z": -34.512085
+				},
+				"rotation": {
+					"x": 353.9308,
+					"y": 358.3281,
+					"z": 350.583649
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QCactus/Q_Cactus/Prefab_HGT_Cactus_Single_A",
+				"position": {
+					"x": 5.503784,
+					"y": 184.543869,
+					"z": -33.37378
+				},
+				"rotation": {
+					"x": 355.371765,
+					"y": 42.3041878,
+					"z": 356.409882
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QCactus/Q_Cactus/Prefab_HGT_Cactus_Single_A",
+				"position": {
+					"x": 10.25708,
+					"y": 184.369781,
+					"z": -31.2867432
+				},
+				"rotation": {
+					"x": 2.07354736,
+					"y": 27.1301785,
+					"z": 347.915436
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QCactus/Q_Cactus/Prefab_HGT_Cactus_Single_A",
+				"position": {
+					"x": 59.5166,
+					"y": 168.082855,
+					"z": -57.4943848
+				},
+				"rotation": {
+					"x": 314.7616,
+					"y": 352.959351,
+					"z": 332.9905
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QCactus/Q_Cactus/Prefab_HGT_Cactus_Single_A",
+				"position": {
+					"x": 59.9087219,
+					"y": 169.505829,
+					"z": -53.8052979
+				},
+				"rotation": {
+					"x": 318.145874,
+					"y": 340.949066,
+					"z": 0.278009981
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QCactus/Q_Cactus/Prefab_HGT_Cactus_Single_A",
+				"position": {
+					"x": 62.71277,
+					"y": 168.7865,
+					"z": -53.7071533
+				},
+				"rotation": {
+					"x": 318.1706,
+					"y": 338.941925,
+					"z": 1.61700475
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QCactus/Q_Cactus/Prefab_HGT_Cactus_Single_A",
+				"position": {
+					"x": 71.23862,
+					"y": 175.289108,
+					"z": -19.0145264
+				},
+				"rotation": {
+					"x": 356.03537,
+					"y": 218.907242,
+					"z": 12.541234
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QCactus/Q_Cactus/Prefab_HGT_Cactus_Single_A",
+				"position": {
+					"x": 71.14929,
+					"y": 175.617126,
+					"z": -15.6431885
+				},
+				"rotation": {
+					"x": 346.750031,
+					"y": 294.166473,
+					"z": 359.70517
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QCactus/Q_Cactus/Prefab_HGT_Cactus_Single_A",
+				"position": {
+					"x": 73.4736938,
+					"y": 175.014038,
+					"z": -16.72107
+				},
+				"rotation": {
+					"x": 350.900818,
+					"y": 340.0365,
+					"z": 350.3231
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QCactus/Q_Cactus/Prefab_HGT_Cactus_Single_A",
+				"position": {
+					"x": 72.4283752,
+					"y": 175.672928,
+					"z": -13.8126221
+				},
+				"rotation": {
+					"x": 347.8631,
+					"y": 349.852264,
+					"z": 355.0225
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QCactus/Q_Cactus/Prefab_HGT_Cactus_Single_A",
+				"position": {
+					"x": 74.70261,
+					"y": 175.198318,
+					"z": -14.7769775
+				},
+				"rotation": {
+					"x": 347.902039,
+					"y": 350.305267,
+					"z": 354.9274
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QCactus/Q_Cactus/Prefab_HGT_Cactus_Single_A",
+				"position": {
+					"x": 79.07739,
+					"y": 175.645035,
+					"z": -7.86706543
+				},
+				"rotation": {
+					"x": 332.46167,
+					"y": 256.815857,
+					"z": 5.712677
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QCactus/Q_Cactus/Prefab_HGT_Cactus_Single_A",
+				"position": {
+					"x": 76.59714,
+					"y": 174.56488,
+					"z": 0.139892578
+				},
+				"rotation": {
+					"x": 316.6514,
+					"y": 194.430176,
+					"z": 14.1052465
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QCactus/Q_Cactus/Prefab_HGT_Cactus_Single_A",
+				"position": {
+					"x": 73.72415,
+					"y": 173.635574,
+					"z": 9.423706
+				},
+				"rotation": {
+					"x": 0.273305625,
+					"y": 186.23082,
+					"z": 26.3794041
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QCactus/Q_Cactus/Prefab_HGT_Cactus_Single_A",
+				"position": {
+					"x": 67.6152954,
+					"y": 176.460052,
+					"z": 12.6242676
+				},
+				"rotation": {
+					"x": 11.6211824,
+					"y": 152.646927,
+					"z": 15.4382629
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QCactus/Q_Cactus/Prefab_HGT_Cactus_Single_A",
+				"position": {
+					"x": 46.18283,
+					"y": 181.625259,
+					"z": 23.1800537
+				},
+				"rotation": {
+					"x": 26.8555183,
+					"y": 103.691162,
+					"z": 344.01593
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QCactus/Q_Cactus/Prefab_HGT_Cactus_Single_A",
+				"position": {
+					"x": 25.6488037,
+					"y": 184.2522,
+					"z": 6.746216
+				},
+				"rotation": {
+					"x": 340.320251,
+					"y": 49.53995,
+					"z": 348.3326
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QCactus/Q_Cactus/Prefab_HGT_Cactus_Single_A",
+				"position": {
+					"x": 5.28793335,
+					"y": 183.895416,
+					"z": -4.430176
+				},
+				"rotation": {
+					"x": 356.039185,
+					"y": 69.0002747,
+					"z": 357.4704
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QCactus/Q_Cactus/Prefab_HGT_Cactus_Single_A",
+				"position": {
+					"x": -10.2578125,
+					"y": 184.277863,
+					"z": -11.5167236
+				},
+				"rotation": {
+					"x": 329.143036,
+					"y": 54.93785,
+					"z": 353.4823
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QCactus/Q_Cactus/Prefab_HGT_Cactus_Single_A",
+				"position": {
+					"x": -27.9361572,
+					"y": 182.942108,
+					"z": -12.8818359
+				},
+				"rotation": {
+					"x": 347.3718,
+					"y": 106.614479,
+					"z": 338.0621
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QCactus/Q_Cactus/Prefab_HGT_Cactus_Single_A",
+				"position": {
+					"x": -41.89148,
+					"y": 184.398682,
+					"z": -12.0738525
+				},
+				"rotation": {
+					"x": 4.338938,
+					"y": 93.98583,
+					"z": 6.74008465
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QCactus/Q_Cactus/Prefab_HGT_Cactus_Single_A",
+				"position": {
+					"x": -40.9208679,
+					"y": 184.060318,
+					"z": -9.799561
+				},
+				"rotation": {
+					"x": 0.320277363,
+					"y": 124.335358,
+					"z": 8.004143
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QCactus/Q_Cactus/Prefab_HGT_Cactus_Single_A",
+				"position": {
+					"x": -41.7648621,
+					"y": 183.863281,
+					"z": -29.7572021
+				},
+				"rotation": {
+					"x": 343.460938,
+					"y": 19.86357,
+					"z": 20.3243141
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QCactus/Q_Cactus/Prefab_HGT_Cactus_Single_A",
+				"position": {
+					"x": -53.1243,
+					"y": 176.844772,
+					"z": -34.9588623
+				},
+				"rotation": {
+					"x": 333.83783,
+					"y": 72.20739,
+					"z": 335.666
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QCactus/Q_Cactus/Prefab_HGT_Cactus_Single_A",
+				"position": {
+					"x": -84.48758,
+					"y": 161.389328,
+					"z": -52.7297363
+				},
+				"rotation": {
+					"x": 345.4828,
+					"y": 35.97572,
+					"z": 329.375854
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QCactus/Q_Cactus/Prefab_HGT_Cactus_Single_A",
+				"position": {
+					"x": -85.3864441,
+					"y": 160.330551,
+					"z": -55.1329346
+				},
+				"rotation": {
+					"x": 345.0874,
+					"y": 35.28273,
+					"z": 329.55188
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QCactus/Q_Cactus/Prefab_HGT_Cactus_Single_A",
+				"position": {
+					"x": -82.9277649,
+					"y": 159.361176,
+					"z": -55.35559
+				},
+				"rotation": {
+					"x": 28.4255638,
+					"y": 184.328445,
+					"z": 18.6915169
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QCactus/Q_Cactus/Prefab_HGT_Cactus_Single_A",
+				"position": {
+					"x": -82.1324158,
+					"y": 154.623779,
+					"z": -73.92627
+				},
+				"rotation": {
+					"x": 348.079834,
+					"y": 315.010376,
+					"z": 17.5932674
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QCactus/Q_Cactus/Prefab_HGT_Cactus_Single_A",
+				"position": {
+					"x": -79.27408,
+					"y": 149.493057,
+					"z": -80.203125
+				},
+				"rotation": {
+					"x": 39.7879143,
+					"y": 132.279953,
+					"z": 338.8234
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QCactus/Q_Cactus/Prefab_HGT_Cactus_Single_A",
+				"position": {
+					"x": -45.47644,
+					"y": 140.510269,
+					"z": -111.179321
+				},
+				"rotation": {
+					"x": 2.6450448,
+					"y": 294.713867,
+					"z": 21.4547863
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QCactus/Q_Cactus/Prefab_HGT_Cactus_Single_A",
+				"position": {
+					"x": -45.41217,
+					"y": 139.62439,
+					"z": -113.87561
+				},
+				"rotation": {
+					"x": 347.5413,
+					"y": 336.48764,
+					"z": 16.8915
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QCactus/Q_Cactus/Prefab_HGT_Cactus_Single_A",
+				"position": {
+					"x": -47.1867065,
+					"y": 130.084656,
+					"z": -134.083862
+				},
+				"rotation": {
+					"x": 340.064117,
+					"y": 323.406952,
+					"z": 36.9905
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QCactus/Q_Cactus/Prefab_HGT_Cactus_Single_A",
+				"position": {
+					"x": -48.13675,
+					"y": 121.196854,
+					"z": -141.569824
+				},
+				"rotation": {
+					"x": 312.86145,
+					"y": 342.548553,
+					"z": 32.7731361
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QCactus/Q_Cactus/Prefab_HGT_Cactus_Single_A",
+				"position": {
+					"x": -43.25,
+					"y": 107.932755,
+					"z": -152.324219
+				},
+				"rotation": {
+					"x": 12.5924492,
+					"y": 284.169739,
+					"z": 54.4750938
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QCactus/Q_Cactus/Prefab_HGT_Cactus_Single_A",
+				"position": {
+					"x": -48.09735,
+					"y": 107.45668,
+					"z": -152.0951
+				},
+				"rotation": {
+					"x": 3.131842,
+					"y": 271.6972,
+					"z": 49.09626
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QCactus/Q_Cactus/Prefab_HGT_Cactus_Single_A",
+				"position": {
+					"x": -64.10037,
+					"y": 102.763657,
+					"z": -151.432739
+				},
+				"rotation": {
+					"x": 336.516083,
+					"y": 102.216156,
+					"z": 311.730347
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QCactus/Q_Cactus/Prefab_HGT_Cactus_Single_A",
+				"position": {
+					"x": -78.08975,
+					"y": 86.5334,
+					"z": -152.52063
+				},
+				"rotation": {
+					"x": 312.5761,
+					"y": 77.86012,
+					"z": 335.355957
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QCactus/Q_Cactus/Prefab_HGT_Cactus_Single_A",
+				"position": {
+					"x": -120.419525,
+					"y": 99.21321,
+					"z": -107.242188
+				},
+				"rotation": {
+					"x": 8.52874851,
+					"y": 142.13147,
+					"z": 297.2245
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QCactus/Q_Cactus/Prefab_HGT_Cactus_Single_A",
+				"position": {
+					"x": -122.377777,
+					"y": 99.08577,
+					"z": -105.116577
+				},
+				"rotation": {
+					"x": 13.2052889,
+					"y": 314.263062,
+					"z": 65.5042343
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QCactus/Q_Cactus/Prefab_HGT_Cactus_Single_A",
+				"position": {
+					"x": -121.077789,
+					"y": 100.642792,
+					"z": -105.493042
+				},
+				"rotation": {
+					"x": 346.1514,
+					"y": 320.6976,
+					"z": 66.71155
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QCactus/Q_Cactus/Prefab_HGT_Cactus_Single_A",
+				"position": {
+					"x": -165.061127,
+					"y": 73.73813,
+					"z": -65.2780762
+				},
+				"rotation": {
+					"x": 296.404724,
+					"y": 113.838806,
+					"z": 321.7263
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QCactus/Q_Cactus/Prefab_HGT_Cactus_Single_A",
+				"position": {
+					"x": -167.626251,
+					"y": 70.46045,
+					"z": -61.2511
+				},
+				"rotation": {
+					"x": 290.541077,
+					"y": 78.64257,
+					"z": 353.966156
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QCactus/Q_Cactus/Prefab_HGT_Cactus_Single_A",
+				"position": {
+					"x": -174.082855,
+					"y": 69.1392059,
+					"z": -43.31653
+				},
+				"rotation": {
+					"x": 43.747818,
+					"y": 193.3154,
+					"z": 312.516937
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QCactus/Q_Cactus/Prefab_HGT_Cactus_Single_A",
+				"position": {
+					"x": -180.829987,
+					"y": 59.7136955,
+					"z": -34.6560059
+				},
+				"rotation": {
+					"x": 290.5906,
+					"y": 77.573555,
+					"z": 359.880066
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QCactus/Q_Cactus/Prefab_HGT_Cactus_Single_A",
+				"position": {
+					"x": -180.740692,
+					"y": 15.0055466,
+					"z": -33.1652832
+				},
+				"rotation": {
+					"x": 295.268555,
+					"y": 95.10427,
+					"z": 354.120453
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QCactus/Q_Cactus/Prefab_HGT_Cactus_Single_A",
+				"position": {
+					"x": -187.25412,
+					"y": 46.7182274,
+					"z": -1.5657959
+				},
+				"rotation": {
+					"x": 14.8731174,
+					"y": 175.742584,
+					"z": 268.761871
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QCactus/Q_Cactus/Prefab_HGT_Cactus_Single_A",
+				"position": {
+					"x": -182.898224,
+					"y": -32.67944,
+					"z": 15.3074951
+				},
+				"rotation": {
+					"x": 300.267334,
+					"y": 119.303436,
+					"z": 325.4522
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QCactus/Q_Cactus/Prefab_HGT_Cactus_Single_A",
+				"position": {
+					"x": -167.480927,
+					"y": 8.06628,
+					"z": 64.57251
+				},
+				"rotation": {
+					"x": 1.98992229,
+					"y": 199.181091,
+					"z": 277.658478
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QCactus/Q_Cactus/Prefab_HGT_Cactus_Single_A",
+				"position": {
+					"x": -169.348175,
+					"y": -41.3749962,
+					"z": 65.04077
+				},
+				"rotation": {
+					"x": 301.043884,
+					"y": 207.955429,
+					"z": 293.090881
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QCactus/Q_Cactus/Prefab_HGT_Cactus_Single_A",
+				"position": {
+					"x": -163.823944,
+					"y": 7.34796143,
+					"z": 84.03552
+				},
+				"rotation": {
+					"x": 48.9223328,
+					"y": 176.314041,
+					"z": 263.691528
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QCactus/Q_Cactus/Prefab_HGT_Cactus_Single_A",
+				"position": {
+					"x": -115.687347,
+					"y": -66.42084,
+					"z": 122.381653
+				},
+				"rotation": {
+					"x": 300.4715,
+					"y": 236.871948,
+					"z": 287.2043
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QCactus/Q_Cactus/Prefab_HGT_Cactus_Single_A",
+				"position": {
+					"x": -153.552521,
+					"y": 111.539352,
+					"z": -0.401123047
+				},
+				"rotation": {
+					"x": 66.54493,
+					"y": 262.9842,
+					"z": 345.0145
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QCactus/Q_Cactus/Prefab_HGT_Cactus_Single_A",
+				"position": {
+					"x": -142.3071,
+					"y": 125.088547,
+					"z": 22.7384033
+				},
+				"rotation": {
+					"x": 26.2205868,
+					"y": 217.2149,
+					"z": 319.2367
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QCactus/Q_Cactus/Prefab_HGT_Cactus_Single_A",
+				"position": {
+					"x": -134.593414,
+					"y": 137.055634,
+					"z": -22.3818359
+				},
+				"rotation": {
+					"x": 29.2929916,
+					"y": 310.1057,
+					"z": 19.9665718
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QCactus/Q_Cactus/Prefab_HGT_Cactus_Single_A",
+				"position": {
+					"x": -117.3768,
+					"y": 153.066391,
+					"z": -23.1378174
+				},
+				"rotation": {
+					"x": 39.3032761,
+					"y": 302.330383,
+					"z": 18.8243046
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QCactus/Q_Cactus/Prefab_HGT_Cactus_Single_A",
+				"position": {
+					"x": -93.77371,
+					"y": 162.8822,
+					"z": -5.01794434
+				},
+				"rotation": {
+					"x": 6.667256,
+					"y": 235.614075,
+					"z": 352.572876
+				}
+			},
+			{
+				"path": "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthUnderground/Sector_FossilCave/Interactables_FossilCave/Structure_DB_AnglerfishSkeleton/anglerfish_skeleton_head",
+				"position": {
+					"x": -7.353546,
+					"y": 3.32256317,
+					"z": -179.337158
+				},
+				"rotation": {
+					"x": 278.367126,
+					"y": 359.3066,
+					"z": 11.0848465
+				}
+			},
+			{
+				"path": "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthUnderground/Sector_FossilCave/Interactables_FossilCave/Structure_DB_AnglerfishSkeleton/anglerfish_skeleton_teeth",
+				"position": {
+					"x": -7.353546,
+					"y": 3.32256317,
+					"z": -179.337158
+				},
+				"rotation": {
+					"x": 278.367126,
+					"y": 359.3066,
+					"z": 11.0848465
+				}
+			}
+		]
+	},
+	"ReferenceFrame": {},
+	"ShipLog": {
+		"initialReveal": [
+			"S1_EXPLORE_FACT"
+		],
+		"spriteFolder": "planets/s1_entry_sprites",
+		"xmlFile": "planets/spirus1.xml"
+	},
+	"ShockEffect": {},
+	"Spawn": {
+		"playerSpawnPoint": {
+			"x": 71.33827,
+			"y": 173.0063,
+			"z": 35.654
+		},
+		"playerSpawnRotation": {
+			"x": 314.6752,
+			"y": 239.5186,
+			"z": 8.487219
+		},
+		"shipSpawnPoint": {
+			"x": 0.1600041,
+			"y": 184.3692,
+			"z": 4.333206
+		},
+		"shipSpawnRotation": {
+			"x": 357.1497,
+			"y": 168.7318,
+			"z": 5.028956
+		},
+		"startWithSuit": true
+	},
+	"Water": {
+		"size": 160.0,
+		"tint": {
+			"g": 20,
+			"b": 230,
+			"a": 0
+		}
+	}
+}
