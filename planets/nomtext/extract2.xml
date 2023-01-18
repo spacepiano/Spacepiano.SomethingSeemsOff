@@ -1,0 +1,13 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+    <TextBlock>    
+    <ID>1</ID>
+        <LocationA />
+        <Text>Something worth noting for the construction of [REDACTED] - all of the planets orbit on the <![CDATA[<color=orange>Same Axis.</color>]]></Text>
+    </TextBlock>
+    <ShipLogConditions>
+        <RevealFact>
+            <FactID>S3_EXTRACT2_FACT</FactID>
+            <Condition>1</Condition>
+        </RevealFact>
+    </ShipLogConditions>
+</NomaiObject>

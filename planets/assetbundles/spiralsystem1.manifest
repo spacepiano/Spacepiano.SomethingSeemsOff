@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 1205551103
+CRC: 2750860578
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 018fcbd13c67ed62b0ae52ed1725483a
+    Hash: 27dd68493238eb312bf598e92516598c
   TypeTreeHash:
     serializedVersion: 2
     Hash: 0f11a1797d5bcfe689fb0c2399e1e783
@@ -38,4 +38,5 @@ ClassTypes:
 SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/Nomai Ruins/Nomai Ruins/ExtractionDevice.prefab
+- Assets/Nomai Ruins/Nomai Ruins/BlackHoleder.prefab
 Dependencies: []

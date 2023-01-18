@@ -1,0 +1,13 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+    <TextBlock>    
+    <ID>1</ID>
+        <LocationA />
+        <Text>This whole place is running like clockwork, we just have to wait here and then we'll be able t[MAX CHARACTER LIMIT REACHED]</Text>
+    </TextBlock>
+    <ShipLogConditions>
+        <RevealFact>
+            <FactID>S4_LOG1_FACT</FactID>
+            <Condition>1</Condition>
+        </RevealFact>
+    </ShipLogConditions>
+</NomaiObject>

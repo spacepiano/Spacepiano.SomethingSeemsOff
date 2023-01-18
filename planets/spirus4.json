@@ -9,6 +9,32 @@
 		"surfaceGravity": 10.0,
 		"surfaceSize": 75.0
 	},
+	"Funnel": {
+		"target": "Spirus 3",
+		"tint": {
+			"r": 255,
+			"g": 128,
+			"a": 0
+		},
+		"type": "lava",
+		"curve": [
+			{},
+			{
+				"time": 5.0
+			},
+			{
+				"time": 6.0,
+				"value": 1.0
+			},
+			{
+				"time": 9.0,
+				"value": 1.0
+			},
+			{
+				"time": 10.0
+			}
+		]
+	},
 	"HeightMap": {
 		"heightMap": "planets/assets/Spirus4Heightmap.png",
 		"maxHeight": 87.0,
@@ -21,7 +47,19 @@
 			"r": 255,
 			"g": 128,
 			"a": 0
-		}
+		},
+		"curve": [
+			{
+				"value": 1.0
+			},
+			{
+				"time": 5.0,
+				"value": 1.0
+			},
+			{
+				"time": 10.0
+			}
+		]
 	},
 	"Orbit": {
 		"primaryBody": "Spirus 3",
@@ -33,9 +71,9 @@
 				"assetBundle": "planets/assetbundles/spiralsystem1",
 				"path": "Assets/Nomai Ruins/Nomai Ruins/ExtractionDevice.prefab",
 				"position": {
-					"x": 49.65405,
+					"x": 49.6540527,
 					"y": 16.96939,
-					"z": 65.47768
+					"z": 65.4777
 				},
 				"rotation": {
 					"x": 329.9615,
@@ -46,38 +84,38 @@
 			{
 				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
 				"position": {
-					"x": 49.32664,
-					"y": 22.5895138,
-					"z": 63.7847481
+					"x": 49.32663,
+					"y": 22.5895157,
+					"z": 63.7847672
 				},
 				"rotation": {
-					"x": 43.38981,
+					"x": 43.3898239,
 					"y": 115.33448,
-					"z": 61.92899
+					"z": 61.928978
 				}
 			},
 			{
 				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
 				"position": {
-					"x": 50.4336,
+					"x": 50.4335938,
 					"y": 11.8371353,
-					"z": 65.56213
+					"z": 65.56214
 				},
 				"rotation": {
-					"x": 53.85126,
-					"y": 129.278412,
-					"z": 74.95791
+					"x": 53.85127,
+					"y": 129.278427,
+					"z": 74.95792
 				}
 			},
 			{
 				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
 				"position": {
-					"x": 46.1818161,
-					"y": 13.8056984,
+					"x": 46.1818237,
+					"y": 13.8057022,
 					"z": 68.4657059
 				},
 				"rotation": {
-					"x": 28.276144,
+					"x": 28.2761631,
 					"y": 302.923828,
 					"z": 277.103241
 				}
@@ -85,15 +123,672 @@
 			{
 				"path": "TimberHearth_Body/Sector_TH/Sector_RadioTower/RadioTower_DLC/Interactibles_RadioTower/Hornfels'GrovePivot/Prefab_HEA_Campfire",
 				"position": {
-					"x": 54.7063637,
-					"y": 16.7941875,
-					"z": 61.21145
+					"x": 54.70636,
+					"y": 16.79419,
+					"z": 61.2114639
 				},
 				"rotation": {
-					"x": 30.0760651,
+					"x": 30.0760822,
 					"y": 121.624168,
 					"z": 66.1567841
 				}
+			},
+			{
+				"path": "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthSurface/Sector_SouthPole/Lighting_SouthPole/Prefab_NOM_Torch",
+				"position": {
+					"x": 56.191864,
+					"y": 14.6233292,
+					"z": 61.1229935
+				},
+				"rotation": {
+					"x": 10.5798244,
+					"y": 317.5205,
+					"z": 283.862183
+				}
+			},
+			{
+				"path": "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthSurface/Sector_SouthPole/Lighting_SouthPole/Prefab_NOM_Torch",
+				"position": {
+					"x": 60.3321838,
+					"y": 9.14764,
+					"z": 59.7357254
+				},
+				"rotation": {
+					"x": 323.621643,
+					"y": 301.8525,
+					"z": 281.424561
+				}
+			},
+			{
+				"path": "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthSurface/Sector_SouthPole/Lighting_SouthPole/Prefab_NOM_Torch",
+				"position": {
+					"x": 66.38992,
+					"y": 10.8621521,
+					"z": 54.6181946
+				},
+				"rotation": {
+					"x": 354.825958,
+					"y": 309.902618,
+					"z": 282.335754
+				}
+			},
+			{
+				"path": "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthSurface/Sector_SouthPole/Lighting_SouthPole/Prefab_NOM_Torch",
+				"position": {
+					"x": 66.88666,
+					"y": 4.302803,
+					"z": 54.6637878
+				},
+				"rotation": {
+					"x": 288.567261,
+					"y": 134.7904,
+					"z": 91.4662857
+				}
+			},
+			{
+				"path": "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthSurface/Sector_SouthPole/Lighting_SouthPole/Prefab_NOM_Torch",
+				"position": {
+					"x": 71.77121,
+					"y": 2.42416382,
+					"z": 47.4761658
+				},
+				"rotation": {
+					"x": 325.355164,
+					"y": 320.6786,
+					"z": 271.865173
+				}
+			},
+			{
+				"path": "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthSurface/Sector_SouthPole/Lighting_SouthPole/Prefab_NOM_Torch",
+				"position": {
+					"x": 71.20593,
+					"y": -6.92993927,
+					"z": 43.3634949
+				},
+				"rotation": {
+					"x": 303.806152,
+					"y": 349.677277,
+					"z": 249.2854
+				}
+			},
+			{
+				"path": "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthSurface/Sector_SouthPole/Lighting_SouthPole/Prefab_NOM_Torch",
+				"position": {
+					"x": 74.51285,
+					"y": -8.920242,
+					"z": 35.4037476
+				},
+				"rotation": {
+					"x": 317.708069,
+					"y": 339.8418,
+					"z": 256.966248
+				}
+			},
+			{
+				"path": "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthSurface/Sector_SouthPole/Lighting_SouthPole/Prefab_NOM_Torch",
+				"position": {
+					"x": 75.64584,
+					"y": -17.85337,
+					"z": 25.3670959
+				},
+				"rotation": {
+					"x": 324.255981,
+					"y": 354.348083,
+					"z": 256.922272
+				}
+			},
+			{
+				"path": "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthSurface/Sector_SouthPole/Lighting_SouthPole/Prefab_NOM_Torch",
+				"position": {
+					"x": 77.70087,
+					"y": -16.5276413,
+					"z": 15.9933167
+				},
+				"rotation": {
+					"x": 350.564,
+					"y": 347.192627,
+					"z": 256.847
+				}
+			},
+			{
+				"path": "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthSurface/Sector_SouthPole/Lighting_SouthPole/Prefab_NOM_Torch",
+				"position": {
+					"x": 75.87454,
+					"y": -24.1199417,
+					"z": 17.3297729
+				},
+				"rotation": {
+					"x": 283.287659,
+					"y": 67.47863,
+					"z": 194.684616
+				}
+			},
+			{
+				"path": "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthSurface/Sector_SouthPole/Lighting_SouthPole/Prefab_NOM_Torch",
+				"position": {
+					"x": 77.08609,
+					"y": -24.6518936,
+					"z": 6.731964
+				},
+				"rotation": {
+					"x": 345.7847,
+					"y": 353.056427,
+					"z": 257.120239
+				}
+			},
+			{
+				"path": "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthSurface/Sector_SouthPole/Lighting_SouthPole/Prefab_NOM_Torch",
+				"position": {
+					"x": 74.3062744,
+					"y": -27.3292389,
+					"z": -4.26287842
+				},
+				"rotation": {
+					"x": 347.3365,
+					"y": 12.6560774,
+					"z": 239.799149
+				}
+			},
+			{
+				"path": "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthSurface/Sector_SouthPole/Lighting_SouthPole/Prefab_NOM_Torch",
+				"position": {
+					"x": 72.88904,
+					"y": -27.86721,
+					"z": -9.282593
+				},
+				"rotation": {
+					"x": 336.699738,
+					"y": 26.6542816,
+					"z": 237.817322
+				}
+			},
+			{
+				"path": "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthSurface/Sector_SouthPole/Lighting_SouthPole/Prefab_NOM_Torch",
+				"position": {
+					"x": 68.81781,
+					"y": -34.8089,
+					"z": -12.240509
+				},
+				"rotation": {
+					"x": 318.229065,
+					"y": 38.446228,
+					"z": 240.696625
+				}
+			},
+			{
+				"path": "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthSurface/Sector_SouthPole/Lighting_SouthPole/Prefab_NOM_Torch",
+				"position": {
+					"x": 67.58481,
+					"y": -34.61831,
+					"z": -18.294342
+				},
+				"rotation": {
+					"x": 2.18692422,
+					"y": 24.8736324,
+					"z": 258.142151
+				}
+			},
+			{
+				"path": "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthSurface/Sector_SouthPole/Lighting_SouthPole/Prefab_NOM_Torch",
+				"position": {
+					"x": 62.740387,
+					"y": -38.7614441,
+					"z": -22.7764282
+				},
+				"rotation": {
+					"x": 343.733765,
+					"y": 31.2862072,
+					"z": 251.479416
+				}
+			},
+			{
+				"path": "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthSurface/Sector_SouthPole/Lighting_SouthPole/Prefab_NOM_Torch",
+				"position": {
+					"x": 63.92865,
+					"y": -33.4386139,
+					"z": -27.1505432
+				},
+				"rotation": {
+					"x": 38.6641655,
+					"y": 2.08187437,
+					"z": 234.569916
+				}
+			},
+			{
+				"path": "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthSurface/Sector_SouthPole/Lighting_SouthPole/Prefab_NOM_Torch",
+				"position": {
+					"x": 62.3865967,
+					"y": -32.42408,
+					"z": -33.1670837
+				},
+				"rotation": {
+					"x": 13.9471264,
+					"y": 356.442474,
+					"z": 243.681976
+				}
+			},
+			{
+				"path": "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthSurface/Sector_SouthPole/Lighting_SouthPole/Prefab_NOM_Torch",
+				"position": {
+					"x": 63.3788757,
+					"y": -26.7273254,
+					"z": -37.3227234
+				},
+				"rotation": {
+					"x": 24.6618958,
+					"y": 353.1563,
+					"z": 212.559372
+				}
+			},
+			{
+				"path": "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthSurface/Sector_SouthPole/Lighting_SouthPole/Prefab_NOM_Torch",
+				"position": {
+					"x": 59.157135,
+					"y": -21.9220963,
+					"z": -44.29483
+				},
+				"rotation": {
+					"x": 41.2991,
+					"y": 21.0600834,
+					"z": 259.268555
+				}
+			},
+			{
+				"path": "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthSurface/Sector_SouthPole/Lighting_SouthPole/Prefab_NOM_Torch",
+				"position": {
+					"x": 59.6708374,
+					"y": -14.84774,
+					"z": -46.0049133
+				},
+				"rotation": {
+					"x": 55.29156,
+					"y": 358.906525,
+					"z": 222.078629
+				}
+			},
+			{
+				"path": "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthSurface/Sector_SouthPole/Lighting_SouthPole/Prefab_NOM_Torch",
+				"position": {
+					"x": 56.7101746,
+					"y": -10.9477615,
+					"z": -50.4512634
+				},
+				"rotation": {
+					"x": 59.979908,
+					"y": 29.5462856,
+					"z": 271.5075
+				}
+			},
+			{
+				"path": "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthSurface/Sector_SouthPole/Lighting_SouthPole/Prefab_NOM_Torch",
+				"position": {
+					"x": 60.2148438,
+					"y": -2.14067841,
+					"z": -47.2433167
+				},
+				"rotation": {
+					"x": 81.62368,
+					"y": 249.29425,
+					"z": 113.696892
+				}
+			},
+			{
+				"path": "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthSurface/Sector_SouthPole/Lighting_SouthPole/Prefab_NOM_Torch",
+				"position": {
+					"x": -52.0411,
+					"y": -34.42705,
+					"z": -40.9944458
+				},
+				"rotation": {
+					"x": 350.394928,
+					"y": 291.822327,
+					"z": 176.968521
+				}
+			},
+			{
+				"path": "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthSurface/Sector_SouthPole/Lighting_SouthPole/Prefab_NOM_Torch",
+				"position": {
+					"x": -50.0061646,
+					"y": -36.91611,
+					"z": -44.7450867
+				},
+				"rotation": {
+					"x": 319.0007,
+					"y": 328.726868,
+					"z": 112.195763
+				}
+			},
+			{
+				"path": "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthSurface/Sector_SouthPole/Lighting_SouthPole/Prefab_NOM_Torch",
+				"position": {
+					"x": -33.7891846,
+					"y": -27.6231461,
+					"z": -57.6557121
+				},
+				"rotation": {
+					"x": 9.215579,
+					"y": 318.9281,
+					"z": 117.351585
+				}
+			},
+			{
+				"path": "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthSurface/Sector_SouthPole/Lighting_SouthPole/Prefab_NOM_Torch",
+				"position": {
+					"x": -48.91942,
+					"y": -34.611454,
+					"z": -47.42749
+				},
+				"rotation": {
+					"x": 22.0993061,
+					"y": 317.310547,
+					"z": 104.118515
+				}
+			},
+			{
+				"path": "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthSurface/Sector_SouthPole/Lighting_SouthPole/Prefab_NOM_Torch",
+				"position": {
+					"x": -37.6201477,
+					"y": -35.2222557,
+					"z": -50.7562981
+				},
+				"rotation": {
+					"x": 0.236598417,
+					"y": 296.876648,
+					"z": 125.56427
+				}
+			},
+			{
+				"path": "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthSurface/Sector_SouthPole/Lighting_SouthPole/Prefab_NOM_Torch",
+				"position": {
+					"x": -27.4851227,
+					"y": -28.595768,
+					"z": -60.00657
+				},
+				"rotation": {
+					"x": 27.265604,
+					"y": 306.1972,
+					"z": 91.20533
+				}
+			},
+			{
+				"path": "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthSurface/Sector_SouthPole/Lighting_SouthPole/Prefab_NOM_Torch",
+				"position": {
+					"x": -25.1717987,
+					"y": -24.93367,
+					"z": -63.1508942
+				},
+				"rotation": {
+					"x": 25.6128082,
+					"y": 313.6194,
+					"z": 111.183846
+				}
+			},
+			{
+				"path": "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthSurface/Sector_SouthPole/Lighting_SouthPole/Prefab_NOM_Torch",
+				"position": {
+					"x": -18.0696716,
+					"y": -24.9697456,
+					"z": -66.12274
+				},
+				"rotation": {
+					"x": 12.911561,
+					"y": 288.294922,
+					"z": 107.875748
+				}
+			},
+			{
+				"path": "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthSurface/Sector_SouthPole/Lighting_SouthPole/Prefab_NOM_Torch",
+				"position": {
+					"x": -11.5751724,
+					"y": -18.5509567,
+					"z": -68.9563141
+				},
+				"rotation": {
+					"x": 33.9173622,
+					"y": 291.294983,
+					"z": 106.199944
+				}
+			},
+			{
+				"path": "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthSurface/Sector_SouthPole/Lighting_SouthPole/Prefab_NOM_Torch",
+				"position": {
+					"x": -2.582653,
+					"y": -20.7752151,
+					"z": -69.0347061
+				},
+				"rotation": {
+					"x": 350.5997,
+					"y": 291.3556,
+					"z": 132.558121
+				}
+			},
+			{
+				"path": "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthSurface/Sector_SouthPole/Lighting_SouthPole/Prefab_NOM_Torch",
+				"position": {
+					"x": 3.438507,
+					"y": -17.9244843,
+					"z": -70.8776855
+				},
+				"rotation": {
+					"x": 13.3441744,
+					"y": 281.900146,
+					"z": 118.703918
+				}
+			},
+			{
+				"path": "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthSurface/Sector_SouthPole/Lighting_SouthPole/Prefab_NOM_Torch",
+				"position": {
+					"x": 7.73040771,
+					"y": -20.3974037,
+					"z": -70.4142151
+				},
+				"rotation": {
+					"x": 353.2615,
+					"y": 270.673523,
+					"z": 102.141426
+				}
+			},
+			{
+				"path": "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthSurface/Sector_SouthPole/Lighting_SouthPole/Prefab_NOM_Torch",
+				"position": {
+					"x": 16.7643852,
+					"y": -16.177269,
+					"z": -68.7215958
+				},
+				"rotation": {
+					"x": 16.179636,
+					"y": 267.87207,
+					"z": 106.096489
+				}
+			},
+			{
+				"path": "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthSurface/Sector_SouthPole/Lighting_SouthPole/Prefab_NOM_Torch",
+				"position": {
+					"x": 21.3911514,
+					"y": -17.7293053,
+					"z": -67.80741
+				},
+				"rotation": {
+					"x": 358.811157,
+					"y": 265.6714,
+					"z": 108.8335
+				}
+			},
+			{
+				"path": "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthSurface/Sector_SouthPole/Lighting_SouthPole/Prefab_NOM_Torch",
+				"position": {
+					"x": 30.4718361,
+					"y": -12.322113,
+					"z": -64.5445251
+				},
+				"rotation": {
+					"x": 354.7827,
+					"y": 257.435272,
+					"z": 139.436234
+				}
+			},
+			{
+				"path": "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthSurface/Sector_SouthPole/Lighting_SouthPole/Prefab_NOM_Torch",
+				"position": {
+					"x": 34.66514,
+					"y": -14.1663589,
+					"z": -62.2751236
+				},
+				"rotation": {
+					"x": 352.94043,
+					"y": 284.4649,
+					"z": 108.7472
+				}
+			},
+			{
+				"path": "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthSurface/Sector_SouthPole/Lighting_SouthPole/Prefab_NOM_Torch",
+				"position": {
+					"x": 39.12718,
+					"y": -11.4422016,
+					"z": -61.6920471
+				},
+				"rotation": {
+					"x": 31.4027958,
+					"y": 246.812515,
+					"z": 94.7742
+				}
+			},
+			{
+				"path": "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthSurface/Sector_SouthPole/Lighting_SouthPole/Prefab_NOM_Torch",
+				"position": {
+					"x": 44.2983856,
+					"y": -11.9795685,
+					"z": -59.10423
+				},
+				"rotation": {
+					"x": 3.66011834,
+					"y": 257.473022,
+					"z": 105.907516
+				}
+			},
+			{
+				"path": "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthSurface/Sector_SouthPole/Lighting_SouthPole/Prefab_NOM_Torch",
+				"position": {
+					"x": 47.6150246,
+					"y": -9.000961,
+					"z": -57.67207
+				},
+				"rotation": {
+					"x": 29.0514412,
+					"y": 236.042435,
+					"z": 89.70262
+				}
+			},
+			{
+				"path": "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthSurface/Sector_SouthPole/Lighting_SouthPole/Prefab_NOM_Torch",
+				"position": {
+					"x": 50.4541321,
+					"y": -9.214352,
+					"z": -56.40413
+				},
+				"rotation": {
+					"x": 14.6930037,
+					"y": 255.241425,
+					"z": 100.732147
+				}
+			},
+			{
+				"path": "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthSurface/Sector_SouthPole/Lighting_SouthPole/Prefab_NOM_Torch",
+				"position": {
+					"x": 53.3706169,
+					"y": -4.340536,
+					"z": -54.4852867
+				},
+				"rotation": {
+					"x": 44.2141228,
+					"y": 208.206268,
+					"z": 69.3925
+				}
+			},
+			{
+				"path": "CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthSurface/Sector_SouthPole/Lighting_SouthPole/Prefab_NOM_Torch",
+				"position": {
+					"x": 53.9720573,
+					"y": -7.278553,
+					"z": -54.1955338
+				},
+				"rotation": {
+					"x": 333.777161,
+					"y": 228.957565,
+					"z": 91.73818
+				}
+			}
+		],
+		"nomaiText": [
+			{
+				"arcInfo": [
+					{
+						"type": "adult",
+						"variation": 28
+					}
+				],
+				"normal": {
+					"x": 0.6967348,
+					"y": -0.5005821,
+					"z": -0.5137881
+				},
+				"position": {
+					"x": 50.17798,
+					"y": 18.46666,
+					"z": 69.16116
+				},
+				"rotation": {
+					"x": 30.03852,
+					"y": 126.405914,
+					"z": 1.97247164E-06
+				},
+				"seed": 42,
+				"type": "wall",
+				"location": "unspecified",
+				"xmlFile": "planets/nomtext/extract1.xml",
+				"rename": "Extractor 1"
+			},
+			{
+				"normal": {
+					"x": 0.7977084,
+					"y": 0.1508478,
+					"z": -0.5838719
+				},
+				"position": {
+					"x": 60.30618,
+					"y": 4.066354,
+					"z": -47.27169
+				},
+				"rotation": {
+					"x": 324.276672,
+					"y": 29.9012032,
+					"z": 280.708252
+				},
+				"type": "computer",
+				"location": "unspecified",
+				"xmlFile": "planets/nomtext/s4log1.xml",
+				"rename": "Log 1"
+			},
+			{
+				"normal": {
+					"x": -0.7031452,
+					"y": -0.4877755,
+					"z": -0.5173604
+				},
+				"position": {
+					"x": -50.67083,
+					"y": -35.69984,
+					"z": -38.02669
+				},
+				"rotation": {
+					"x": 6.33711863,
+					"y": 327.2128,
+					"z": 119.3915
+				},
+				"type": "preCrashRecorder",
+				"location": "unspecified",
+				"xmlFile": "planets/nomtext/s4log2.xml",
+				"rename": "Log 2"
 			}
 		]
 	},

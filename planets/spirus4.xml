@@ -12,5 +12,20 @@
                         <ID>S4_EXPLORE_FACT</ID>
                         <Text>This planet is covered in molten rock (ouch)</Text>
                     </ExploreFact>
+
+                    <ExploreFact>
+                      <ID>S4_LOG1_FACT</ID>
+                      <Text>I found a Nomai log talking about.. waiting and.. clockwork? It cut off before I could figure out what they were on about.</Text>
+                    </ExploreFact>
+
+                    <ExploreFact>
+                      <ID>S4_LOG2_FACT</ID>
+                      <Text>Apparently this 'lava transfer' is powering something on Spirus 4 <![CDATA[<color=orange>(I doubt the S was of significance)</color>]]>, maybe that'll get me home?</Text>
+                    </ExploreFact>
+
+                    <ExploreFact>
+                      <ID>S4_EXTRACT1_FACT</ID>
+                      <Text>Solanum was here! And it seems like they found their way back to my system. Shame they left this place how they found it...</Text>
+                    </ExploreFact>
                   </Entry>
 </AstroObjectEntry>

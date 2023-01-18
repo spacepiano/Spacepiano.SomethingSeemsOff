@@ -7,11 +7,15 @@
                     <Name>Spirus 3</Name>
                     <Curiosity>S3_ENTRY</Curiosity>
                     <IsCuriosity />
-                    <IgnoreMoreToExplore />
 
                     <ExploreFact>
                         <ID>S3_EXPLORE_FACT</ID>
                         <Text>The most habitable planet in this system, it appears to be the only planet harbouring biological matter</Text>
                     </ExploreFact>
+
+                    <ExploreFact>
+                      <ID>S3_EXTRACT2_FACT</ID>
+                      <Text>The nomai observed that all planets in the system orbit on the same axis.</Text>
+                  </ExploreFact>
                   </Entry>
 </AstroObjectEntry>

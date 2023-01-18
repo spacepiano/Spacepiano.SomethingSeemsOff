@@ -7,11 +7,15 @@
                     <Name>Spirus 1</Name>
                     <Curiosity>S1_ENTRY</Curiosity>
                     <IsCuriosity />
-                    <IgnoreMoreToExplore />
 
                     <ExploreFact>
                         <ID>S1_EXPLORE_FACT</ID>
                         <Text>Surprisingly, this is the only planet that orbits the core. Every other celestial body seems to be LAYERED on top of each other, forming a sort of spiral.</Text>
                     </ExploreFact>
+
+                    <ExploreFact>
+                      <ID>S1_FISH_FACT</ID>
+                      <Text>A nomai discovered a way to make a cloaking device.</Text>
+                  </ExploreFact>
                   </Entry>
 </AstroObjectEntry>

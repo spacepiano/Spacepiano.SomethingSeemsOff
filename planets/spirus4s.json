@@ -1,0 +1,50 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Spirus 4-S",
+	"starSystem": "Spacepiano.SpiralSystem",
+	"Base": {
+		"ambientLight": 0.8,
+		"gravityFallOff": "linear",
+		"surfaceGravity": 10.0,
+		"surfaceSize": 25.25
+	},
+	"Cloak": {
+		"radius": 450
+	},
+	"Orbit": {
+		"primaryBody": "Spirus 4",
+		"showOrbitLine": false,
+		"semiMajorAxis": 312.5
+	},
+	"Props": {
+		"singularities": [
+			{
+				"type": "blackHole",
+				"uniqueID": "HOMEWARP",
+				"targetStarSystem": "SolarSystem",
+				"hasWarpEffects": true,
+				"horizonRadius": 6,
+				"distortRadius": 12
+			}
+		],
+		"details": [
+			{
+				"assetBundle": "planets/assetbundles/spiralsystem1",
+				"path": "Assets/Nomai Ruins/Nomai Ruins/BlackHoleder.prefab",
+				"position": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"rotation": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				}
+			}
+		]
+	},
+	"ReferenceFrame": {},
+	"ShipLog": {},
+	"ShockEffect": {}
+}
